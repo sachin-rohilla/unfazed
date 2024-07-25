@@ -54,7 +54,7 @@ const Navbar = () => {
       </nav>
       {isMobileMenuOpen && (
         <div
-          className="fixed top-0 left-0 w-full h-full bg-black/40 z-10"
+          className="fixed top-0 left-0 w-full h-full bg-black/40 z-50"
           onClick={() => setIsMobileMenuOpen(false)}
         >
           <div

@@ -3,7 +3,7 @@ import BookingSessionVerticalForm from "./BookingSessionVerticalForm";
 
 const Contact = () => {
   return (
-    <div className="w-full relative h-screen ">
+    <div className="w-full relative h-screen lg:h-full ">
       <Image
         src="/contact.png"
         alt="contact"

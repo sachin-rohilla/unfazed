@@ -32,7 +32,7 @@ const BlogSection = () => {
                 width={300}
                 height={300}
                 className={`w-[270px] object-cover  ${
-                  index !== 0 && index !== 2 && index !== 4 ? "h-96" : "h-44"
+                  index !== 0 && index !== 2 && index !== 4 ? "h-full" : "h-44"
                 }`}
               />
               <div
