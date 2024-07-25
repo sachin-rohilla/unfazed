@@ -1,8 +1,8 @@
 "use client";
 
-const BookingSessionForm = () => {
+const BookingSessionHorizontalForm = () => {
   return (
-    <div className="text-sm bg-white/40 hidden lg:block text-white py-6 pl-6 pr-4 rounded-xl">
+    <div className="text-sm font-poppins bg-white/40 hidden lg:block text-white py-6 pl-6 pr-4 rounded-xl">
       <form
         onSubmit={(e) => e.preventDefault()}
         className="flex items-center gap-4"
@@ -37,7 +37,7 @@ const BookingSessionForm = () => {
         <button
           id="book-session-button"
           title="Book Session"
-          className="bg-orange text-white px-4 py-2 whitespace-nowrap rounded-md"
+          className="bg-orange font-poppins text-white px-4 py-2 whitespace-nowrap rounded-md"
           type="submit"
         >
           Booking Session
@@ -47,4 +47,4 @@ const BookingSessionForm = () => {
   );
 };
 
-export default BookingSessionForm;
+export default BookingSessionHorizontalForm;

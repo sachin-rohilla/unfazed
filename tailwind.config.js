@@ -18,6 +18,10 @@ module.exports = {
         skyblue: "#469BAF",
         gray_secondary: "#F1F1F1",
       },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        castoro: ["Castoro", "serif"],
+      },
     },
   },
   plugins: [],

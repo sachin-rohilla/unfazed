@@ -1,4 +1,8 @@
 import AboutUs from "@/components/AboutUs";
+import BlogSection from "@/components/BlogSection";
+import { CommunitySection } from "@/components/CommunitySection";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import ProcessSection from "@/components/ProcessSection";
@@ -10,10 +14,24 @@ export default function Home() {
     <>
       <Navbar />
       <HeroSection />
-      <AboutUs />
-      <Services />
+      <div id="About-us">
+        <AboutUs />
+      </div>
+      <div id="Services">
+        <Services />
+      </div>
       <ProcessSection />
       <TeamSection />
+      <div id="Contact-us">
+        <Contact />
+      </div>
+      <div id="Blog">
+        <BlogSection />
+      </div>
+      <div id="Join-our-team">
+        <CommunitySection />
+      </div>
+      <Footer />
     </>
   );
 }
